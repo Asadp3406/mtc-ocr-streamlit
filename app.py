@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 import easyocr
+import numpy as np  # <-- Add this line
 
 st.title("MTC OCR App")
 st.write("Upload an image of your MTC certificate below:")
